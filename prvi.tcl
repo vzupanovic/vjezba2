@@ -9,3 +9,7 @@ set a 23
 set b 14
 set y [expr {$a + $b}]
 puts "zbroj je: $y"
+set x abc
+puts "Ovo je kao neka zamjena ili nesto: $x \n";
+set K {[set x "Ovo je string u stringu"]}
+puts "$K"
