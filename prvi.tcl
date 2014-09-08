@@ -15,3 +15,8 @@ set K {[set x "Ovo je string u stringu"]}
 puts "$K"
 set moja_varijabla [expr {$a>20 ? ($a+1) : ($a-1)}]
 puts "vrijednost je: $moja_varijabla";
+#dodavanje nekih izraza bezveze
+set polje(1) 10
+set polje(2) 20
+set polje(3) 30
+puts "Suma je: [expr {$polje(1) + $polje(2) + $polje(3)}]"
